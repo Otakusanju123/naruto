@@ -1,0 +1,80 @@
+* {
+    font-family: 'Belanosima', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 66px;
+    margin: 30px;
+    border: 6px solid rgb(249, 17, 133);
+    padding: 0.8rem 0rem;
+    text-align: center;
+    position:sticky; 
+    border-style: dashed;
+    border-radius: 90px;
+   
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: all 600ms;
+    
+}
+
+.img{
+    height: 900px;
+    width: 510px;
+    margin: 54px 18px 18px 18px;
+    border-radius: 45px;
+    transform: all 600ms;
+}
+
+.Wide{
+    height: 84%; 
+    width: 84%;
+    margin: 0px;
+    border: 3px double rgb(232, 10, 232);
+    padding: 3%;
+    margin-top: 6%;
+    margin-left: 4%;
+    border-radius: 12px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+@media only screen and (min-width:900px){
+    h1{
+       width: 600px;
+       margin: 0% 33%;
+    } 
+}
+.img:hover{
+    transform:scale(1.1)
+}
+
+#gif{
+    height: 84%; 
+    width: 84%;
+    margin: 0px;
+    border: 3px double rgb(232, 10, 232);
+    padding: 3%;
+    margin-top: 6%;
+    margin-left: 4%;
+    border-radius: 12px;
+    z-index: -1;
+    position:absolute;
+}
+
+.Wide:hover{
+    z-index: -2;
+    transition: ease-in-out;
+   
+}
+
