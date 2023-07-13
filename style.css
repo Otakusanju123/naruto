@@ -52,7 +52,7 @@ div {
 @media only screen and (min-width:650px) (max-width:990px) {
     h1 {
         width: 450px;
-        margin: 0% auto;
+        margin: 0Px auto;
     }
 
     #gif {
