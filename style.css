@@ -49,7 +49,7 @@ div {
 
 }
 
-@media only screen and (min-width:650px) (max-width:990px){
+@media only screen and (min-width:650px) (max-width:990px) {
     h1 {
         width: 450px;
         margin: 0% auto;
@@ -79,8 +79,7 @@ div {
 }
 
 .img:hover {
-    transform: scale(1.05)
-    translateX(0.6deg)
+    transform: scale(1.05) translateX(-0.6deg)
 }
 
 
