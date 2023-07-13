@@ -60,6 +60,7 @@ div {
         position: absolute;
         border-style: dashed;
         border-radius: 90%;
+        height: 90px;
     
     }
 
