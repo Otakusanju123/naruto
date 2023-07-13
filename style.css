@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 66rem;
-    margin: 30%;
+    margin: 1% auto;
     border: 6% solid rgb(249, 17, 133);
     padding: 0.8% 0rem;
     text-align: center;
