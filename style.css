@@ -13,21 +13,21 @@ h1 {
     border: 6px solid rgb(249, 17, 133);
     padding: 0.8rem 0rem;
     text-align: center;
-    position:sticky; 
+    position: sticky;
     border-style: dashed;
     border-radius: 90px;
-   
+
 }
 
-div{
+div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     transition: all 600ms;
-    
+
 }
 
-.img{
+.img {
     height: 900px;
     width: 510px;
     margin: 54px 18px 18px 18px;
@@ -35,32 +35,53 @@ div{
     transform: all 600ms;
 }
 
-.Wide{
-    height: 84%; 
+.Wide {
+    height: 84%;
     width: 84%;
     margin: 0px;
-    border: 3px double rgb(232, 10, 232);
+    border: 3% double rgb(232, 10, 232);
     padding: 3%;
     margin-top: 6%;
     margin-left: 4%;
-    border-radius: 12px;
+    border-radius: 12%;
     z-index: 1;
     position: absolute;
-    
+
 }
 
-@media only screen and (min-width:900px){
-    h1{
-       width: 600px;
-       margin: 0% 33%;
-    } 
-}
-.img:hover{
-    transform:scale(1.1)
+@media only screen and (min-width:650px) {
+    h1 {
+        width: 450px;
+        margin: 0% auto;
+    }
+
+    #gif {
+        height: 84%;
+        width: 84%;
+        margin: 0px;
+        border: 3% double rgb(232, 10, 232);
+        padding: 3%;
+        margin-top: 6%;
+        margin-left: 4%;
+        border-radius: 12%;
+        z-index: -1;
+        position: absolute;
+    }
+
+
 }
 
-#gif{
-    height: 84%; 
+.img:hover {
+    transform: scale(1.1)
+}
+
+
+
+
+
+
+#gif {
+    height: 84%;
     width: 84%;
     margin: 0px;
     border: 3px double rgb(232, 10, 232);
@@ -69,12 +90,11 @@ div{
     margin-left: 4%;
     border-radius: 12px;
     z-index: -1;
-    position:absolute;
+    position: absolute;
 }
 
-.Wide:hover{
+.Wide:hover {
     z-index: -2;
     transition: ease-in-out;
-   
-}
 
+}
