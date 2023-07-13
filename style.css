@@ -36,7 +36,7 @@ div {
 }
 
 .Wide {
-    height: 84%;
+    height: 47%;
     width: 84%;
     margin: 0px;
     border: 3% double rgb(232, 10, 232);
@@ -56,7 +56,7 @@ div {
     }
 
     #gif {
-        height: 84%;
+        height: 47%;
         width: 84%;
         margin: 0px;
         border: 3% double rgb(232, 10, 232);
@@ -81,7 +81,7 @@ div {
 
 
 #gif {
-    height: 84%;
+    height: 47%;
     width: 84%;
     margin: 0px;
     border: 3px double rgb(232, 10, 232);
