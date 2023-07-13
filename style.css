@@ -13,7 +13,7 @@ h1 {
     border: 6% solid rgb(249, 17, 133);
     padding: 0.8% 0rem;
     text-align: center;
-    position: sticky;
+    position: absolute;
     border-style: dashed;
     border-radius: 90%;
 
@@ -51,8 +51,15 @@ div {
 
 @media only screen and (min-width:650px) (max-width:990px) {
     h1 {
-        width: 450px;
-        margin: 0Px auto;
+        font-size: 21rem;
+        margin: 1% auto;
+        border: 6% solid rgb(249, 17, 133);
+        padding: 0.8% 0rem;
+        text-align: center;
+        position: absolute;
+        border-style: dashed;
+        border-radius: 90%;
+    
     }
 
     #gif {
