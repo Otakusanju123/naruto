@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-size: 66rem;
+    font-size: 51rem;
     margin: 1% auto;
     border: 6% solid rgb(249, 17, 133);
     padding: 0.8% 0rem;
@@ -16,7 +16,7 @@ h1 {
     position: absolute;
     border-style: dashed;
     border-radius: 90%;
-    height: 150px;
+    height: 120px;
 
 }
 
@@ -24,16 +24,16 @@ div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    transition: all 360ms;
+    transition: all 5s;
 
 }
 
 .img {
-    height: 900px;
-    width: 510px;
+    height: 720px;
+    width: 408px;
     margin: 54px 18px 18px 18px;
     border-radius: 45px;
-    transform: all 360ms;
+    transform: all 5s;
 }
 
 .Wide {
@@ -52,7 +52,7 @@ div {
 
 @media only screen and (min-width:650px) (max-width:990px) {
     h1 {
-        font-size: 21rem;
+        font-size: 15rem;
         margin: 1% auto;
         border: 6% solid rgb(249, 17, 133);
         padding: 0.8% 0rem;
@@ -61,7 +61,7 @@ div {
         border-style: dashed;
         border-radius: 90%;
         height: 90px;
-    
+
     }
 
     #gif {
@@ -78,8 +78,8 @@ div {
     }
 
     .img {
-        height: 450px;
-        width: 255px;
+        height: 360px;
+        width: 204px;
         margin: 26px 9px 9px 9px;
         border-radius: 22.5px;
         transform: all 360ms;
